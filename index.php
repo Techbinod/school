@@ -109,7 +109,7 @@
 	    			       <a style =" color:#FF0000; "  href="#"><i class="fab fa-youtube"></i></a>
 	    			    </li>
 	    			    <li class="nav-item  ">
-	    			        <a  style = "color:#5DCCF1";href="#"><i class="fab fa-twitter"></i></a>
+	    			        <a  style = "color:#5DCCF1"; href="#"><i class="fab fa-twitter"></i></a>
 	    			    </li> 
 	    			     
 	    			     
