@@ -1,11 +1,11 @@
-       @media screen and (max-width : 500px) {
+       @media screen and (max-width : 980px) {
         div.photo,div.carousel-caption { 
           display: none;
         }
          
         
 }
-         @media screen and (max-width : 500px) {
+         @media screen and (max-width : 980px) {
                 div.small_screen_display {
                  display:inline-block;
                  text-align: center;
