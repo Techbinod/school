@@ -1,0 +1,125 @@
+       @media screen and (max-width : 500px) {
+        div.photo,div.carousel-caption { 
+          display: none;
+        }
+         
+        
+}
+         @media screen and (max-width : 500px) {
+                div.small_screen_display {
+                 display:inline-block;
+                 text-align: center;
+                }
+                
+                } 
+         
+        .small_screen_display{
+        	display: none;
+        }
+        .navbar{
+        	
+        	padding-top:0px;
+        	padding-bottom: 0px;
+        	margin-bottom: 0px;
+        	font-size: 14px;
+        	font-family: 'PT Serif', serif;
+
+        }
+        .nav-item > .active{
+        	color:yellow !important;
+        }
+
+        .nav-item:hover > .nav-link{
+        	color:yellow !important;
+        }
+
+        .dropdown:hover > .dropdown-menu{
+        	display:block;
+        	margin:0px;
+        	padding:0px;
+        	
+        }
+
+        .dropdown-item:hover {
+        	background-color:yellow !important;
+        	margin:0px;
+
+        }
+
+        .social_media{
+        	font-size: 20px;
+        	/* smargin-right: 15px; */
+        	display:inline-block;
+        
+        } 
+          .social_media > li {
+        	
+        	display:inline-block;
+        	margin-left: 20px;
+        } 
+        .phone > a{
+       	 margin-left: 20px;
+         text-decoration: none;
+         color:white;
+        
+        }
+      
+         .carousel-caption {
+		    max-width: 100%;
+		    width:100%;
+		    background-color: rgba(0,0,0,0.5);
+		    left: 0;
+		    bottom: 0px;
+		    padding-bottom: 0px;
+        }
+        .notice_caption{
+        	background-color: red;
+
+        }
+        .row_first{
+        	background-color: red;
+
+        	/* border-width: 2px solid black; */
+        }
+        .row{
+        	margin-right: 0px;
+        	margin-left: 0px;
+        	margin-top: 0px;
+        	/* background-color: blue; */
+        }
+        
+        
+        .card-header{
+        	background-color:#B61515;
+        	color:#fcfcfc;
+        	padding:5px;
+        	margin-top: 2px;
+        	
+        }
+
+
+        .card  p {
+        	text-align:justify;
+        	display: list-item;
+            line-height: 17px;
+
+        }
+
+        .card a{
+        	
+        	text-decoration: none;
+            color:#000;
+        }
+
+        .card a:hover{
+        	
+        	text-decoration: none;
+            color:red;
+        }
+      
+    .navbar-toggler{
+    	outline: none !important;
+    	color:#fff;
+
+    } 
+    

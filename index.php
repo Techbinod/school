@@ -7,129 +7,13 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <script src="js/jquery2.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <title>TASS</title>
-    <style >
-    	@media screen and (max-width : 500px) {
-        div.photo {
-          display: none;
-        }
-         
-        }
-
-        @media screen and (max-width : 500px) {
-        div.carousel-caption {
-          display: none;
-        }
-        
-        }
-         
-        
-        .navbar{
-        	
-        	padding-top:0px;
-        	padding-bottom: 0px;
-        	margin-bottom: 0px;
-        	font-size: 14px;
-        	font-family: 'PT Serif', serif;
-
-        }
-
-        .nav-item:hover > .nav-link{
-        	color:yellow !important;
-        }
-
-        .dropdown:hover > .dropdown-menu{
-        	display:block;
-        	margin:0px;
-        	padding:0px;
-        	
-        }
-
-        .dropdown-item:hover {
-        	background-color:yellow !important;
-        	margin:0px;
-
-        }
-
-        .social_media{
-        	font-size: 20px;
-        	/* smargin-right: 15px; */
-        	display:inline-block;
-        
-        } 
-          .social_media > li {
-        	
-        	display:inline-block;
-        	margin-left: 20px;
-        } 
-        .phone > a{
-       	 margin-left: 20px;
-         text-decoration: none;
-         color:white;
-        
-        }
-      
-         .carousel-caption {
-		    max-width: 100%;
-		    width:100%;
-		    background-color: rgba(0,0,0,0.5);
-		    left: 0;
-		    bottom: 0px;
-		    padding-bottom: 0px;
-        }
-        .notice_caption{
-        	background-color: red;
-
-        }
-        .row_first{
-        	background-color: red;
-
-        	/* border-width: 2px solid black; */
-        }
-        .row{
-        	margin-right: 0px;
-        	margin-left: 0px;
-        	margin-top: 0px;
-        	/* background-color: blue; */
-        }
-        
-        
-        .card-header{
-        	background-color:#B61515;
-        	color:#fcfcfc;
-        	padding:5px;
-        	margin-top: 2px;
-        	
-        }
-
-
-        .card  p {
-        	text-align:justify;
-        	display: list-item;
-            line-height: 17px;
-
-        }
-
-        .card a{
-        	
-        	text-decoration: none;
-            color:#000;
-        }
-
-        .card a:hover{
-        	
-        	text-decoration: none;
-            color:red;
-        }
-      
-
-          
-         
-    </style>
+    
     
   </head>
   <body>
@@ -138,16 +22,27 @@
     <div class="contianer-fluid photo">
         <img style="width:100%;height:100px; background-color:#194576;" src="photoes/taass.png" alt="last" class="img-responsive">  
     </div>
+    
+    	<!-- <div class="container">
+    		<div class="col-sm-12">
+    			 <div class="row">
+    			 	<div class="col-sm-6 ml-auto">This is left</div>
+    			 	<div class="col-sm-6 ml-auto">This is right</div>
+    			 	
+    			 </div>
+    		</div>
+    	</div>
+    	     -->
 
 
-          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
 
           	  <div class="container-fluid">
     			  
 
-    			  <button  class="navbar-toggler"  data-toggle="collapse" data-target="#navbarSupportedContent">
+    			  <button  class="navbar-toggler "  data-toggle="collapse" data-target="#navbarSupportedContent">
     			    
-    			    	<span  class="navbar-toggler-icon" ></span>
+    			    	<span  class="navbar-toggler-icon " ></span>
     			    	<span style="color:#000 !important">Menu</span>
     			            
     			  </button>
@@ -179,7 +74,7 @@
 	    			        <a class="nav-link" href="#">Facilities</a>
 	    			      </li>
 	    			      <li class="nav-item  ">
-	    			        <a class="nav-link" href="#">Photo Gallery</a>
+	    			        <a class="nav-link" href="#">Gallery</a>
 	    			      </li>
 	    			      <li class="nav-item dropdown">
 	    			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -189,8 +84,14 @@
 	    			        <div class="dropdown-menu">
 	    			          <a class="dropdown-item " href="#">Present</a>
 	    			          <a class="dropdown-item " href="#">Alumni</a>
-	    			      </div>
+	    			        </div>
 	    			          
+	    			      </li> 
+	    			      <li class="nav-item  ">
+	    			        <a class="nav-link" href="#">Downloads</a>
+	    			      </li>
+	    			      <li class="nav-item  ">
+	    			        <a class="nav-link" href="pages/Volunteer.html">Become Volunteer</a>
 	    			      </li> 
 	    			      <li class="nav-item  ">
 	    			        <a class="nav-link" href="#">Contact Us</a>
@@ -277,12 +178,22 @@
                          
 				    </li>
 				    <li class="list-group-item ">
-				    	<h5>March 3,2018</h5>
-				    	<p>Class will remain close today and will resume from sunday</p>
+				    	<a  href="#">
+                              <h5>March 3,2018</h5>
+				    	      <p>Class will remain close today and will resume from sunday</p>
+                         </a>
+				    </li>
+				     <li class="list-group-item ">
+				    	<a  href="#">
+                              <h5>March 3,2018</h5>
+				    	      <p>Class will remain close today and will resume from sunday</p>
+                         </a>
 				    </li>
 				    <li class="list-group-item ">
-				    	<h5>March 3,2018</h5>
-				    	<p>Class will remain close today and will resume from sunday</p>
+				    	<a  href="#">
+                              <h5>March 3,2018</h5>
+				    	      <p>Class will remain close today and will resume from sunday</p>
+                         </a>
 				    </li>
 				  </ul>
 
